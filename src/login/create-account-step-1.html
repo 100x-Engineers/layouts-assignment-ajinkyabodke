@@ -6,48 +6,127 @@
     <title>100x</title>
     <link href="../../dist/output.css" rel="stylesheet" />
   </head>
-  <body class="bg-neutral-1000">
-    <header class="fixed flex w-full items-end justify-center px-3 py-4">
-      <img src="../../public/images/100x-logo.svg" />
-    </header>
-    <main class="flex h-screen w-full items-center">
+  <body class="box-border bg-neutral-1000">
+    <main class="flex h-screen w-full">
       <section
-        class="flex w-full flex-shrink-0 flex-col items-start gap-10 rounded-2xl px-0.9rem pb-5"
+        class="flex w-full flex-shrink-0 flex-col items-start gap-3 rounded-2xl px-0.9rem pb-5"
       >
         <div class="flex items-center gap-5 self-stretch py-3">
-          <img src="../../public/images/cancel.svg" />
+          <a href="../login/index.html"
+            ><img src="../../public/images/cancel.svg" />
+          </a>
           <p class="text-0.9rem font-bold leading-normal text-neutral-50">
             Step 1 of 4
           </p>
         </div>
 
-        <div class="flex flex-col items-center gap-8">
+        <div class="flex flex-col items-start gap-5 self-stretch">
+          <h1 class="text-2xl font-bold leading-normal text-neutral-50">
+            Create your account
+          </h1>
 
-          <div class="m-10 flex flex-col gap-7 bg-fuchsia-500">
+          <fieldset
+            class="group flex items-center self-stretch rounded border border-solid border-neutral-500 px-3 py-4 pt-2 focus-within:border-twitter-default"
+          >
+            <legend
+              class="text-xs font-medium not-italic leading-normal text-neutral-500 group-focus-within:text-twitter-default"
+            >
+              <div class="px-2">Name</div>
+            </legend>
+            <input
+              type="text"
+              placeholder="Name"
+              class="w-full bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+            />
+          </fieldset>
+
+          <fieldset
+            class="group flex items-center self-stretch rounded border border-solid border-neutral-500 px-3 py-4 pt-2 focus-within:border-twitter-default"
+          >
+            <legend
+              class="text-xs font-medium not-italic leading-normal text-neutral-500 group-focus-within:text-twitter-default"
+            >
+              <div class="px-2">Email</div>
+            </legend>
+            <input
+              type="text"
+              placeholder="Email"
+              class="w-full bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+            />
+          </fieldset>
+
+          <div class="flex flex-col items-start gap-2 self-stretch">
+            <h3 class="text-0.9rem font-bold leading-normal text-neutral-50">
+              Date of birth
+            </h3>
+            <p class="text-secondary text-0.8rem font-normal leading-normal">
+              This will not be shown publicly. Confirm your own age, even if
+              this account is for a business, a pet, or something else.
+            </p>
+          </div>
+
+          <div class="flex items-center gap-3 self-stretch">
+            <!-- Month field -->
             <fieldset
-              class="group flex w-26.6rem items-center rounded border border-solid border-neutral-500 bg-fuchsia-500 px-3 py-4 pt-2 focus-within:border-twitter-default"
+              class="w-10.6rem group flex items-center rounded border border-solid border-neutral-500 px-3 py-4 focus-within:border-twitter-default"
             >
               <legend
-                class="bg-fuchsia-500 group-focus-within:text-twitter-default"
+                class="text-xs font-medium not-italic leading-normal text-neutral-500 group-focus-within:text-twitter-default"
               >
-                <div
-                  class="bg-fuchsia-500 px-2 text-xs font-medium not-italic leading-normal text-white"
-                >
-                  Name
-                </div>
+                <div class="px-2">Month</div>
               </legend>
               <input
                 type="text"
-                placeholder="Label"
-                class="w-full bg-fuchsia-500 text-neutral-50  placeholder:text-neutral-500 focus:outline-none"
+                class="w-full bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
               />
+              <img src="../../public/images/chevron-down.svg" />
+            </fieldset>
+            <!-- Date field -->
+            <fieldset
+              class="w-5.1rem group flex items-center self-stretch rounded border border-solid border-neutral-500 px-3 py-4 focus-within:border-twitter-default"
+            >
+              <legend
+                class="text-xs font-medium not-italic leading-normal text-neutral-500 group-focus-within:text-twitter-default"
+              >
+                <div class="px-2">Date</div>
+              </legend>
+              <input
+                type="text"
+                class="w-full bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+              />
+              <img src="../../public/images/chevron-down.svg" />
+            </fieldset>
+            <!-- Year field -->
+            <fieldset
+              class="w-5.1rem group flex items-center self-stretch rounded border border-solid border-neutral-500 px-3 py-4 focus-within:border-twitter-default"
+            >
+              <legend
+                class="text-xs font-medium not-italic leading-normal text-neutral-500 group-focus-within:text-twitter-default"
+              >
+                <div class="px-2">Year</div>
+              </legend>
+              <input
+                type="text"
+                class="w-full bg-transparent text-neutral-50 placeholder:text-neutral-500 focus:outline-none"
+              />
+              <img src="../../public/images/chevron-down.svg" />
             </fieldset>
           </div>
-          <h1 class="text-4xl text-blue-400">Hellow</h1>
+        </div>
 
-          <input class="flex py-4 items-center gap-2.5 self-stretch rounded-s border border-neutral-500 bg-transparent">
-
-          </input>
+        <div
+          class="flex grow flex-col items-center justify-end gap-2.5 self-stretch px-5 pt-20"
+        >
+          <a href="../login/create-account-step-2.html">
+            <button
+              class="flex w-20.8rem items-center justify-center gap-2.5 rounded-5xl bg-neutral-50 px-6 py-2 shadow-3xl backdrop-blur-23.66 hover:bg-neutral-200 disabled:opacity-50"
+            >
+              <span
+                class="text-center text-base font-bold not-italic leading-normal text-neutral-1000"
+                >Create account</span
+              >
+            </button>
+          </a>
         </div>
       </section>
     </main>

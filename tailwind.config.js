@@ -26,6 +26,7 @@ module.exports = {
         "button-stroke": "#546A7A",
         "searchbar-fill": "#212327",
         "card-fill": "#16181C",
+        secondary: "rgba(255, 255, 255, 0.60)",
         success: "#00BE74",
         error: "#8B141A",
         stroke: "rgba(29, 155, 240, 0.24)",
@@ -55,9 +56,12 @@ module.exports = {
         "22.9rem": "22.938rem",
         "14.7rem": "14.78125rem",
         "10.1rem": "10.121rem",
-        "6.2rem":"6.25rem",
-        "10.7rem":  "10.75rem",
-        "0.06rem": "0.0625rem"
+        "6.2rem": "6.25rem",
+        "10.7rem": "10.75rem",
+        "0.06rem": "0.0625rem",
+        "10.6rem": "10.6875rem",
+        "5.1rem": "5.156rem",
+        
       },
       borderRadius: {
         "4xl": "1.875rem",
@@ -78,8 +82,7 @@ module.exports = {
         "0.9rem": "0.9375rem",
         "0.8rem": "0.875rem",
         "1.6rem": "1.625rem",
-        "1.9rem": "1.9375rem"
-      
+        "1.9rem": "1.9375rem",
       },
     },
   },
