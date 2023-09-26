@@ -578,6 +578,10 @@ video {
   width: 5.156rem;
 }
 
+.w-\[360px\] {
+  width: 360px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -600,6 +604,10 @@ video {
 
 .items-start {
   align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -650,6 +658,10 @@ video {
   border-radius: 4.0625rem;
 }
 
+.rounded-6xl {
+  border-radius: 624.9375rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -693,6 +705,15 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-twitter-default {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 155 240 / var(--tw-bg-opacity));
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-0 {
@@ -823,11 +844,6 @@ video {
   color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
-.text-red-700 {
-  --tw-text-opacity: 1;
-  color: rgb(185 28 28 / var(--tw-text-opacity));
-}
-
 .text-secondary {
   color: rgba(255, 255, 255, 0.60);
 }
@@ -835,11 +851,6 @@ video {
 .text-twitter-default {
   --tw-text-opacity: 1;
   color: rgb(29 155 240 / var(--tw-text-opacity));
-}
-
-.text-blue-200 {
-  --tw-text-opacity: 1;
-  color: rgb(191 219 254 / var(--tw-text-opacity));
 }
 
 .shadow-3xl {
@@ -878,6 +889,11 @@ video {
 .hover\:bg-neutral-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-twitter-hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 113 202 / var(--tw-bg-opacity));
 }
 
 .focus\:outline-none:focus {
