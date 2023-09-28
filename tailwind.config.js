@@ -61,6 +61,10 @@ module.exports = {
         "0.06rem": "0.0625rem",
         "10.6rem": "10.6875rem",
         "5.1rem": "5.156rem",
+        "1.1rem": "1.125rem",
+        "5.6rem": "5.625rem",
+        "4.3rem": "4.375rem",
+        "4.2rem": "4.25rem"
         
       },
       borderRadius: {
@@ -68,6 +72,7 @@ module.exports = {
         "5xl": "4.0625rem",
         "6xl": "624.9375rem",
         "7xl": "12.5rem",
+        "8xl": "6.25rem"
       },
       boxShadow: {
         "3xl": "0px 8px 16px 0px rgba(0, 0, 0, 0.25)",
